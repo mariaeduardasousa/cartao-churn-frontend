@@ -226,10 +226,6 @@ function App() {
               <span>Classe prevista</span>
               <strong>{prediction.label}</strong>
             </div>
-            <div className="result-item">
-              <span>Confiança</span>
-              <strong>{prediction.confidence}</strong>
-            </div>
           </div>
         )}
       </section>
